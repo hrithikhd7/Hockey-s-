@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;600;700;800&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <html data-theme="light"></html>
     <style>
@@ -20,19 +21,36 @@
         font-family: "Manrope", sans-serif;
       }
     </style>
-    
+
     <title>Hockey</title>
   </head>
-  
-    <body class="font-manrope">
+
+  <body class="font-manrope lg:px-32">
+    <header>
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
               </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
                 <li><a>Pages</a></li>
@@ -40,7 +58,9 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
+            <a class="text-4xl font-extrabold"
+              >Hockey<span class="text-[#FF4240]">'</span>s</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -58,38 +78,105 @@
       </nav>
 
       <div class="flex justify-center my-12">
-        <div class="carousel w-3/4 ">
+        <div class="carousel">
           <div id="slide1" class="carousel-item relative w-full h-3/4">
             <img src="Images/1.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" class="btn btn-circle">❮</a> 
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
-          </div> 
+          </div>
           <div id="slide2" class="carousel-item relative w-full h-3/4">
             <img src="Images/11.jpg" class="w-full rounded-2xl" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a> 
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
-
-      </header>
-
-  
-
-  
+    </header>
 
     <main>
-
-
-
+      <section class="text-center">
+        <div class="my-2">
+          <h1 class="text-3xl font-bold my-8">Professional Hockeys Club</h1>
+          <p class="text-sm mb-20 sm: mb-6">
+            Welcome to our Hockeys Club. Let's skate together, conquer
+            challenges, and create a legacy that echoes the strength of our team
+            spirit!
+          </p>
+        </div>
+        <div class="lg:flex flex-row justify-center mb-18">
+          <div>
+            <div
+              class="radial-progress text-[#FF4240] mb-6"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <h3 class="text-lg mb-4">Prayer Facility</h3>
+            <p class="text-sm sm: mb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-[#49D293] mb-6"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <h3 class="text-lg mb-4">Experienced Coach</h3>
+            <p class="text-sm sm: mb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-[#FFB546] mb-6"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <h3 class="text-lg mb-4">Senior Player</h3>
+            <p class="text-sm sm: mb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-[#4C8DF1] mb-6"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <h3 class="text-lg mb-4">Training Ground</h3>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="text-center">
+        <div class="my-2">
+          <h1 class="text-3xl font-bold my-8">Program Session</h1>
+          <p class="text-sm mb-20 sm: mb-6">
+            Welcome to our Hockeys Club. Let's skate together, conquer
+            challenges, and create a legacy that echoes the strength of our team
+            spirit!
+          </p>
+        </div>
+      </section>
     </main>
-    <footer>
-
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
